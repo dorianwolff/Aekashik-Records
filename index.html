@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplayer Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="home">
+  <div id="character-selection">
+    <button id="leftArrow">&#9664;</button>
+    <div id="characterDisplay">
+      <img id="characterImage" src="" alt="Character">
+      <p id="characterStats">Health: 100, Attack: 20, Special: Fireball</p>
+    </div>
+    <button id="rightArrow">&#9654;</button>
+  </div>
+  <button id="playButton">Play</button>
+</div>
+<div id="loadingScreen" class="hidden">
+  <p>Queuing...</p>
+  <div class="loading-circle"></div>
+</div>
+<script src="characters.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
